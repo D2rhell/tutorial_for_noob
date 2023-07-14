@@ -10,25 +10,25 @@
 
 .nav {
   width: 10%;
-  background-color: #fafafa;
-}
-
-.main {
-  width: 60%;
-  background-color: #fff;
-}
-
-.info {
-  width: 30%;
-  background-color: #d9d9d9;
+  background: #fafafa;
 }
 
 .nav_dark {
   background: #191b1f;
 }
 
+.main {
+  width: 60%;
+  background: #fff;
+}
+
 .main_dark {
   background: #20232b;
+}
+
+.info {
+  width: 30%;
+  background-color: #d9d9d9;
 }
 
 .info_dark {
