@@ -4,22 +4,33 @@
 }
 
 .container {
-  width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
 }
 
 .nav {
   width: 10%;
-  background-color: #fafafa;
+  background: #fafafa;
+}
+
+.nav_dark {
+  background: #191b1f;
 }
 
 .main {
   width: 60%;
-  background-color: #fff;
+  background: #fff;
+}
+
+.main_dark {
+  background: #20232b;
 }
 
 .info {
   width: 30%;
   background-color: #d9d9d9;
+}
+
+.info_dark {
+  background: #191b1f;
 }
