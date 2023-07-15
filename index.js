@@ -5,7 +5,7 @@ const info = document.querySelector(".info");
 
 function changeTheme(theme) {
   if (theme == "white") {
-    nav.classList.remove("na_dark");
+    nav.classList.remove("nav_dark");
     main.classList.remove("main_dark");
     info.classList.remove("info_dark");
     theme_ = "dark";
