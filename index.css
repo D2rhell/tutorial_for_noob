@@ -13,6 +13,10 @@
   background: #fafafa;
 }
 
+nav__icon {
+  z-index: 2;
+}
+
 .nav_dark {
   background: #191b1f;
 }
