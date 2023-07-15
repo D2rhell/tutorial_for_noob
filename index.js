@@ -1,9 +1,3 @@
-const button = document.querySelector(".main_button");
-
-button.addEventListener("click", () => {
-  changeTheme(theme_);
-});
-
 let theme_ = "white";
 const nav = document.querySelector(".nav");
 const main = document.querySelector(".main");
@@ -11,7 +5,7 @@ const info = document.querySelector(".info");
 
 function changeTheme(theme) {
   if (theme == "white") {
-    nav.classList.remove("nav_dark");
+    nav.classList.remove("na_dark");
     main.classList.remove("main_dark");
     info.classList.remove("info_dark");
     theme_ = "dark";
@@ -22,3 +16,9 @@ function changeTheme(theme) {
     theme_ = "white";
   }
 }
+
+const button = document.querySelector(".main__button");
+
+button.addEventListener("click", () => {
+  changeTheme(theme_);
+});
