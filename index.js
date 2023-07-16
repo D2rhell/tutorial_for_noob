@@ -22,4 +22,3 @@ const button = document.querySelector(".main__button");
 button.addEventListener("click", () => {
   changeTheme(theme_);
 });
-// dsmfasdfmads.fmas,d
