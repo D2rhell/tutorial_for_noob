@@ -1,0 +1,179 @@
+[33mcommit d442656538e14643e41ab96f65f929091f59737c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Sun Jul 16 21:17:15 2023 +0300
+
+    Add images
+
+[33mcommit 54233feff1c3ca3d40311272f84be8bef38a0128[m
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Sun Jul 16 21:07:50 2023 +0300
+
+    Update index.js
+
+[33mcommit 690258f94214c09bdfd64df4c8fbd5d000850b79[m
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Sun Jul 16 21:07:30 2023 +0300
+
+    Update index.css
+
+[33mcommit b5d005e5402bd682b9fe9c0e452ef3c53a6ace00[m
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Sun Jul 16 21:07:00 2023 +0300
+
+    Update index.html
+
+[33mcommit 6c5387fc34600745180bd5431c48b08b01a5995b[m
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Sun Jul 16 21:04:58 2023 +0300
+
+    Update index.html
+
+[33mcommit 474767928cd1c48c9c50be73e71c14385743b1f5[m
+Merge: 8db53ce cafe64c
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Sun Jul 16 20:47:08 2023 +0300
+
+    Merge pull request #11 from D2rhell/10-create-nav-bar
+    
+    Add nav bar_1
+
+[33mcommit cafe64ce65e7a8f00979b86b85c5bec490bd5e1d[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Sun Jul 16 17:21:43 2023 +0300
+
+    Add nav bar_3
+
+[33mcommit 3f332701160ccf6640a243d068c29102c6e33efc[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Sun Jul 16 00:08:24 2023 +0300
+
+    Add nav bar_2
+
+[33mcommit f99f2d1b6783ae4459579decd5886fdc2a29727a[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Sun Jul 16 00:04:13 2023 +0300
+
+    Add nav bar_1
+
+[33mcommit 8db53cebdd232afbb274117731c8cbea91514a30[m
+Merge: 19589f9 6185d4c
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Sat Jul 15 21:52:03 2023 +0300
+
+    Merge pull request #9 from D2rhell/7-theme-change
+    
+    fignia
+
+[33mcommit 6185d4cbbf549cc736393875bfa2887d7ca27d77[m[33m ([m[1;31morigin/7-theme-change[m[33m)[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Sat Jul 15 21:37:25 2023 +0300
+
+    done this exercise
+
+[33mcommit 5fdb23ac8cdc019efa064076c241ad479bfca965[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Sat Jul 15 21:03:24 2023 +0300
+
+    correct some strange mistakes
+
+[33mcommit f2b0c231efa4817cbef736234f3e44b88df1b02c[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Sat Jul 15 20:56:52 2023 +0300
+
+    Correct some mistakes
+
+[33mcommit f6e30458305cf1db9e0030730fb5167380f0fea7[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Fri Jul 14 23:19:33 2023 +0300
+
+    normal fix code
+
+[33mcommit 0b026cd5c175f9aba6457c2cfdd72a472b44bd3c[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Fri Jul 14 22:26:24 2023 +0300
+
+    Add some fignia
+
+[33mcommit 5677d3db675653d723e4099e55a8681c0da79298[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Fri Jul 14 20:50:07 2023 +0300
+
+    fignia
+
+[33mcommit 19589f93b385995c54c4daeac257b226d84ba6bd[m
+Merge: 5c4b3b2 212cda0
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Fri Jul 14 11:56:44 2023 +0300
+
+    Merge pull request #6 from D2rhell/cleanup
+    
+    Cleanup
+
+[33mcommit 212cda0c098527bc055ecc4af11bef625fe58498[m[33m ([m[1;31morigin/cleanup[m[33m)[m
+Author: fak3alien <alienwhowasfaked@gmail.com>
+Date:   Fri Jul 14 10:40:22 2023 +0200
+
+    remove comments & replace flex-basis with the width
+
+[33mcommit 5c4b3b274366ff5ec914e19bc9e3f106bef8ae01[m
+Merge: 26bd2cf 52fa433
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Fri Jul 14 11:33:52 2023 +0300
+
+    Merge pull request #5 from D2rhell/1-добавить-начальную-разметку-страницы
+    
+    Add some changes
+
+[33mcommit 52fa4336254e622970ba99dfed636d81fd907110[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Fri Jul 14 11:31:19 2023 +0300
+
+    Add some changes
+
+[33mcommit 26bd2cf87c3a5b1aaee60dde5d366ec700e9b2cc[m
+Merge: 7deaf1b c0213f4
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Thu Jul 13 21:18:05 2023 +0300
+
+    Merge pull request #4 from D2rhell/1-добавить-начальную-разметку-страницы
+    
+    Add site markup
+
+[33mcommit c0213f45aab834abd895451278f750436912252a[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Thu Jul 13 21:03:01 2023 +0300
+
+    Add site markup
+
+[33mcommit 7deaf1b2f64007f344929dfaa2cfefe25d1bb322[m
+Merge: bd02281 7e5f08a
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Wed Jul 12 21:44:58 2023 +0300
+
+    Merge pull request #2 from D2rhell/test
+    
+    Add class
+
+[33mcommit 7e5f08a675d718eda0fcf51a474c13079af92572[m[33m ([m[1;31morigin/test[m[33m, [m[1;32mtest[m[33m)[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Wed Jul 12 21:41:08 2023 +0300
+
+    change classname
+
+[33mcommit 1d97b0ca18addc2d61d1f2ee07046683514db8c6[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Wed Jul 12 21:27:11 2023 +0300
+
+    Add class
+
+[33mcommit bd02281f5fc271ea07e4f8d53eefb0ff6717280b[m
+Author: d2rhell <ivan1302007x2@gmail.com>
+Date:   Wed Jul 12 17:58:53 2023 +0300
+
+    Add project.html
+
+[33mcommit 0879dd340830d22172b696f8ed6e221fbf40f426[m
+Author: D2rhell <139156918+D2rhell@users.noreply.github.com>
+Date:   Wed Jul 12 15:21:27 2023 +0300
+
+    Initial commit

@@ -22,3 +22,6 @@ const button = document.querySelector(".main__button");
 button.addEventListener("click", () => {
   changeTheme(theme_);
 });
+
+document.querySelector(".nav__item").style.background = "#fc8b40";
+document.querySelector(".nav__item").style.color = "#fff";
