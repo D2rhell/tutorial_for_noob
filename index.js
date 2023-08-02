@@ -2,7 +2,7 @@ let theme_ = "white";
 const nav = document.querySelector(".nav");
 const main = document.querySelector(".main");
 const info = document.querySelector(".info");
-const event2 = [...[...document.querySelectorAll(".nav__item")].slice(1)];
+const event2 = [...document.querySelectorAll(".nav__item")];
 const event3 = document.querySelector(".nav__burger");
 
 function changeTheme(theme) {
@@ -29,7 +29,7 @@ button.addEventListener("click", () => {
   changeTheme(theme_);
 });
 
-const event1 = [...document.querySelectorAll(".nav__button")];
+const event1 = [...document.querySelectorAll(".nav__item")];
 
 event1.map((j) =>
   j.addEventListener("click", function () {
