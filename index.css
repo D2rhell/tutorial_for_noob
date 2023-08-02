@@ -24,14 +24,16 @@
   margin-top: 50px;
 }
 
+.icon {
+  width: 50px;
+  height: 450px;
+  border-radius: 14px;
+}
+
 .nav__button {
   background: none;
   border: none;
   outline: none;
-}
-
-.nav__item .nav__icon {
-  color: #261d56;
 }
 
 .nav__burger {
@@ -40,6 +42,7 @@
   flex-shrink: 0;
   margin-bottom: 86.29px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .nav__item {
@@ -69,19 +72,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 6px 24px 0px rgba(183, 183, 183, 0.4);
   border: none;
   cursor: pointer;
   margin-top: 30px;
   flex-shrink: 0;
 }
 
+.nav__burgerDark {
+  background-color: #191b1f;
+}
+
 .nav__item_selected {
-  border-color:;
+  box-shadow: 0px 0px 0px 26px rgba(52, 233, 7, 0.884);
+}
+
+.nav__item:first-child {
+  color: #fff;
+  background-color: #fc8b40;
+}
+
+.nav__item:nth-child(n + 1) {
+  color: #261d56;
+}
+
+.nav__burger {
+  color: #c8cad0;
 }
 
 .nav__icon_dark {
-  color: #fff:
+  color: #fff;
 }
 
 .main {
