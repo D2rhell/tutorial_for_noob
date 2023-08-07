@@ -33,7 +33,9 @@ const event1 = [...document.querySelectorAll(".nav__item")];
 
 event1.map((j) =>
   j.addEventListener("click", function () {
-    event1.map((i) => i.classList.remove("nav__item_selected"));
+    event1.map((i) => {
+      i.classList.remove("nav__item_selected");
+    });
     this.classList.add("nav__item_selected");
   })
 );

@@ -4,13 +4,13 @@
 }
 
 .container {
-  min-height: 1024px;
-  min-width: 1440px;
-  display: flex;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
 }
 
 .nav {
-  width: 131px;
+  padding: 0 3vw;
   background: #fafafa;
   display: flex;
   flex-direction: column;
@@ -18,15 +18,10 @@
 }
 
 .nav__bar {
-  width: 50px;
-  height: 592px;
-  flex-shrink: 0;
-  margin-top: 50px;
+  padding-top: 5vh;
 }
 
 .icon {
-  width: 50px;
-  height: 450px;
   border-radius: 14px;
 }
 
@@ -38,9 +33,8 @@
 
 .nav__burger {
   width: 30px;
-  height: 25.714px;
-  flex-shrink: 0;
-  margin-bottom: 86.29px;
+  height: 26px;
+  margin-bottom: 10vh;
   margin-left: 10px;
   cursor: pointer;
 }
@@ -50,14 +44,13 @@
   border-radius: 14px;
   width: 50px;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 6px 24px 0px rgba(183, 183, 183, 0.4);
+  box-shadow: 0px 6px 24px 0px #b7b7b766;
   border: none;
   cursor: pointer;
   margin-top: 30px;
-  flex-shrink: 0;
+  color: #261d56;
+  display: grid;
+  align-items: center;
 }
 
 .nav_dark {
@@ -69,13 +62,9 @@
   border-radius: 14px;
   width: 50px;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: none;
   cursor: pointer;
   margin-top: 30px;
-  flex-shrink: 0;
 }
 
 .nav__burgerDark {
@@ -87,10 +76,6 @@
   color: #fff;
 }
 
-.nav__item {
-  color: #261d56;
-}
-
 .nav__burger {
   color: #c8cad0;
 }
@@ -100,7 +85,7 @@
 }
 
 .main {
-  width: 983px;
+  width: 60%;
   background: #fff;
 }
 
@@ -109,7 +94,7 @@
 }
 
 .info {
-  width: 326px;
+  width: 30%;
   background-color: #d9d9d9;
 }
 
