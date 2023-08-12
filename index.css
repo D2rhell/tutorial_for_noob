@@ -10,18 +10,22 @@
 }
 
 .nav {
-  padding: 0 2vw;
+  padding: 0 25px;
   background: #fafafa;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.nav_dark {
+  background: #191b1f;
+}
+
 .nav__bar {
-  padding-top: 5vh;
+  padding-top: 40px;
   display: grid;
   grid-template-columns: auto;
-  gap: 10vh;
+  gap: 60px;
 }
 
 .icon {
@@ -55,16 +59,10 @@
   color: #261d56;
 }
 
-.nav_dark {
-  background: #191b1f;
-}
-
 .nav__item_dark {
   background: #20232b;
-}
-
-.nav__burgerDark {
-  background-color: #191b1f;
+  box-shadow: none;
+  color: #fff;
 }
 
 .nav__item_selected {
@@ -76,9 +74,6 @@
   color: #c8cad0;
 }
 
-.nav__icon_dark {
-  color: #fff;
-}
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .main {
   background: #fff;
