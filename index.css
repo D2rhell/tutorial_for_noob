@@ -29,7 +29,7 @@
 .nav__buttons {
   display: grid;
   grid-template-columns: auto;
-  gap: 35px;
+  row-gap: 30px;
 }
 
 .nav__button {
