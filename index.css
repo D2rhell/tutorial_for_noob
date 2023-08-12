@@ -27,7 +27,6 @@
 }
 
 .nav__buttons {
-  border-radius: 14px;
   display: grid;
   grid-template-columns: auto;
   gap: 35px;
