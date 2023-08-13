@@ -40,9 +40,8 @@
 }
 
 .nav__burger {
-  width: 30px;
-  height: 26px;
   cursor: pointer;
+  color: #c8cad0;
 }
 
 .nav__item {
@@ -67,13 +66,72 @@
   color: #fff;
 }
 
-.nav__burger {
-  color: #c8cad0;
-}
-
 /* --- <main> --- */
 .main {
   background: #fff;
+}
+
+.main__navigation {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  width: 536px;
+  height: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.main__navigation__button {
+  color: #a0a8b1;
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.main__navigation__button_dark {
+  color: #fff;
+}
+
+.main__hero_element {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.main__hero_element__text {
+  position: relative;
+  width: 494px;
+  height: 87px;
+  font-family: Rubik;
+  font-size: 42px;
+  font-weight: 600;
+  color: #fff;
+  top: 64px;
+  left: 30px;
+}
+
+.main__hero_element__button {
+  position: relative;
+  background: #fc8b40;
+  height: 55px;
+  width: 160px;
+  color: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(202, 205, 219, 0.42);
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 8px;
+  top: 105px;
+  left: 30px;
+  border: none;
+  cursor: pointer;
 }
 
 .main_dark {
