@@ -4,12 +4,16 @@ const main = document.querySelector(".main");
 const info = document.querySelector(".info");
 const navItems = document.querySelectorAll(".nav__item");
 const navBurger = document.querySelector(".nav__burger");
+const mainNavItems = document.querySelectorAll(".main__navigation__button");
 
 function changeTheme() {
   if (theme == "white") {
     nav.classList.remove("nav_dark");
     main.classList.remove("main_dark");
     info.classList.remove("info_dark");
+    mainNavItems.forEach((i) => {
+      i.classList.remove("main__navigation__button_dark");
+    });
     navItems.forEach((i) => {
       i.classList.remove("nav__item_dark");
     });
@@ -18,6 +22,9 @@ function changeTheme() {
     nav.classList.add("nav_dark");
     main.classList.add("main_dark");
     info.classList.add("info_dark");
+    mainNavItems.forEach((i) => {
+      i.classList.add("main__navigation__button_dark");
+    });
     navItems.forEach((i) => {
       i.classList.add("nav__item_dark");
     });

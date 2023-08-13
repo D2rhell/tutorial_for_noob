@@ -71,6 +71,29 @@
   background: #fff;
 }
 
+.main__navigation {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  width: 536px;
+  height: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.main__navigation__button {
+  color: #a0a8b1;
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.main__navigation__button_dark {
+  color: #fff;
+}
+
 .main__hero_element {
   position: relative;
 }
